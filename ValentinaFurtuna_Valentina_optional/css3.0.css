@@ -1,0 +1,90 @@
+         body { background-color: white;}
+				
+		 h2 {background-color: #ffc299;}
+		 
+		 div {background-color: #cce0ff;
+		      border: 2px solid #990000;}
+
+		 p {color: blue;}		
+		 
+		 table, tr, th, td {border: 1px solid #0f0b0b;
+		                    border-color:  #800080;}
+		 
+		 table { border-spacing: 1px;
+                 border-collapse: separate;
+				 margin-left: 20px;}
+						
+		 th { padding: 10px;}
+		 		 
+		 h2 {font-family: "Arial Black";
+		     color: #cc99ff;
+			 border: 5px solid black;
+			 margin-top: 5%;}
+		 
+		 p {font-family: "Calibri";
+		    color: blue;}
+		 
+		 img { width: 500px;
+		       display: block;
+		       margin: left;
+		       opacity: 1;
+			   }
+
+.thirdHeading {
+    font-family: "Times New Roman";
+	font-style: italic;
+	color: #004d99;
+	text-decoration: underline;
+	margin-left: 2%;}
+
+.date {
+    border: 1px solid black;
+	margin-left: auto;
+    margin-right: auto;
+	width:100%}
+
+
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+  margin-top:0px;
+}
+  
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {   background-color: #717171;}
+
+/* Fading animation */
+.fade {-webkit-animation-name: fade;
+	   -webkit-animation-duration: 3s;
+	   animation-name: fade;
+       animation-duration: 3s;}
+
+@-webkit-keyframes fade { from {opacity: .4} 
+  to {opacity: 1} }
+
+@keyframes fade {from {opacity: .4} 
+  to {opacity: 1} }
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 15px}
+}
